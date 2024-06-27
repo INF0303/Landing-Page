@@ -1,0 +1,82 @@
+.section-background-color-dark{
+    background-color:#a7dcff;
+    padding: 80px 0px;
+    text-align: center;
+}/* *****************main1******************** */
+.mainwe1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 42px;
+    margin: auto;
+}
+
+.firstwe1 {  
+    background: rgba(255, 255, 255, 0.43);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 30px 15px 15px;
+    margin: 20px 0px;
+}
+
+.firstwe1 p {
+    font-size: 18px;
+}
+
+.secwe1 {
+    background: rgba(255, 255, 255, 0.43);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 30px 15px 15px;
+    margin: 20px 0px;
+}
+
+.secwe1 p {
+    font-size: 18px;
+}
+
+@media(max-width: 600px) {
+    .mainwe1 {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .secwe1 {
+        margin-top: 7px;
+    }
+}
+/* **********************MAIN 2************************ */
+.btnwe{
+    height: 54px;
+    margin :18px 0px 10px 0px;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 4%), 0 6px 20px 0 rgb(0 0 0 / 11%);
+    border: none;
+    font-size: 20px;
+    padding: 12px 20px 14px 20px;
+    border-radius: 0.7em;
+    /* background: -webkit-linear-gradient(225deg, rgb(97 217 255), rgb(21 130 251), rgb(21, 198, 251)) 0% 0% / 300% 300%; */
+    background: -webkit-linear-gradient(225deg, #00c2c7, #0086ad, #005582) 0% 0% / 300% 300%;
+    background-size: 200% auto;
+    animation: gradient_move 3s ease infinite;
+}
+@-webkit-keyframes gradient_move {
+    0%{background-position: 0% 92%}
+    50%{background-position: 100% 9%}
+    100%{background-position: 0% 92%}
+  }
+  
+  @keyframes gradient_move {
+    0%{background-position: 0% 92%}
+    50%{background-position: 100% 9%}
+    100%{background-position: 0% 92%}
+  }

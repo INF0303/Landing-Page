@@ -35,7 +35,7 @@
     border: none;
     font-size: 20px;
     margin-bottom: 14px;
-    padding: 14px 20px 14px 20px;
+    padding: 12px 20px 14px 20px;
     border-radius: 0.7em;
     /* background: -webkit-linear-gradient(225deg, rgb(97 217 255), rgb(21 130 251), rgb(21, 198, 251)) 0% 0% / 300% 300%; */
     background: -webkit-linear-gradient(225deg, #00c2c7, #0086ad, #005582) 0% 0% / 300% 300%;
@@ -92,6 +92,7 @@
 }
 
 /* ***********MAIN!111111*********** */
+
 .main1 {
     display: flex;
     justify-content: center;
@@ -150,6 +151,7 @@
 .smallFont1{
     font-size:16px;
 }
+
 /* *********MAIN22222222************* */
 .main2 {
     display: flex;
