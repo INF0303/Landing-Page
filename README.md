@@ -8,3 +8,6 @@ For Font Awesome:
  npm install --save @fortawesome/fontawesome-svg-core
 For Bootstrap:
  npm install bootstrap
+
+To run
+npm start
