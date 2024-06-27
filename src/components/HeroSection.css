@@ -1,0 +1,296 @@
+.section-background-color{
+    background-color:#b6e2ff;
+    padding: 80px 0px;
+    text-align: center;    
+}
+
+.container{
+    max-width: 944px !important;
+}
+
+.heading-gradient{
+    background: linear-gradient(to bottom, #00c2c7, #0086ad, #005582);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 50px;
+    padding: 8px;
+}
+
+.subHeading{
+    font-size: 21px;
+    font-weight: 400;
+}
+.vdo{
+    width: 440px;
+    border: 0;
+    height: 245px;
+    border-radius: 16px;
+}
+.btnhero{
+    width: 100%;
+    height: 56px;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 4%), 0 6px 20px 0 rgb(0 0 0 / 11%);
+    border: none;
+    font-size: 20px;
+    margin-bottom: 14px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 0.7em;
+    /* background: -webkit-linear-gradient(225deg, rgb(97 217 255), rgb(21 130 251), rgb(21, 198, 251)) 0% 0% / 300% 300%; */
+    background: -webkit-linear-gradient(225deg, #00c2c7, #0086ad, #005582) 0% 0% / 300% 300%;
+    background-size: 200% auto;
+    animation: gradient_move 3s ease infinite;
+}
+@-webkit-keyframes gradient_move {
+    0%{background-position: 0% 92%}
+    50%{background-position: 100% 9%}
+    100%{background-position: 0% 92%}
+  }
+  
+  @keyframes gradient_move {
+    0%{background-position: 0% 92%}
+    50%{background-position: 100% 9%}
+    100%{background-position: 0% 92%}
+  }
+/* ***********MAIN*********** */
+.main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin: auto;    
+}
+
+.first {
+    width: 50%;
+}
+
+.first p {
+    font-size: 20px;
+}
+
+.second {
+    padding: 12px 10px 30px 10px;
+    width: 50%;
+}
+
+.second p {
+    font-size: 20px;
+}
+
+@media(max-width: 600px) {
+    .main {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .second {
+        margin-top: 7px;
+    }
+}
+
+/* ***********MAIN!111111*********** */
+.main1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin: auto;
+}
+
+.first1 {
+    background-color: #e5f4ff;
+    padding: 15px 15px 0px;
+    margin: 10px;
+    border-radius: 16px;
+    width: 50%;
+}
+
+.first1 p {
+    font-size: 20px;
+}
+
+.second1 {
+    background-color: #e5f4ff;
+    padding: 15px 15px 0px;
+    margin: 10px;
+    border-radius: 16px;
+    width: 50%;
+}
+
+.second1 p {
+    font-size: 20px;
+}
+
+@media(max-width: 600px) {
+    .main1 {
+        display: block;
+        justify-content: center;
+        text-align: center;
+       
+    }
+    .second1 {
+        margin-top: 7px;
+    }
+}
+
+.icon-color{
+    /* background: linear-gradient(to bottom, #00c2c7, #0086ad, #005582); */
+    color:#005582;
+    font-size: 24px;
+}
+.calenderPara{
+    background-color: #e5f4ff;
+    padding: 15px 15px 6px;
+    margin: 10px 10px 20px;
+    border-radius: 16px;
+}
+.smallFont1{
+    font-size:16px;
+}
+/* *********MAIN22222222************* */
+.main2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin: 10px;
+    background-color: #e5f4ff;
+    padding: 15px 15px 6px;
+    border-radius: 16px;
+}
+
+.first2 p {
+    font-size: 14px;
+}
+
+.second2 p {
+    font-size: 14px;
+}
+
+@media(max-width: 600px) {
+    .main2 {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .second2 {
+        margin-top: 7px;
+    }
+}
+.partnerSection{
+    background-color: #fff;
+    padding: 25px 10px;
+    border-radius: 16px;
+    height: auto;
+    width: 140px;
+    margin-bottom: 10px;
+}
+.shopifyp{
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius: 16px;
+    height: auto;
+    width: 140px;
+}   
+
+/* ***********Logo Section*********** */
+
+.bordertop {
+    border: 1px solid #5eb6ff;
+    border-radius: 16px;
+    padding: 18px;
+    margin: 50px 10px;
+  }
+  
+  .bordertop h2 {
+    font-size: 26px;
+    background-color: #b6e2ff;
+    width: fit-content;
+    margin: auto;
+    margin-top: -36px;
+    padding: 0px 10px 10px;
+  }
+
+  .imgsize{
+    width: 100px;
+    margin: 20px;
+  }
+  .imgsize1{
+    width: 100px;
+    margin: 10px 20px 20px;
+  }
+
+  /* ****************************MAIN VIDEO******************** */
+
+  .mainvdo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin: auto;
+    
+}
+
+.vdosize {
+    width: 25%;
+}
+.covervdo {
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+@media(max-width: 600px) {
+    .mainvdo {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+/* **************Achivement******************* */
+
+.mainach {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin: 50px 0px 10px;
+    
+}
+
+.secondach {
+    width: 25%;
+    background-image: url('https://blueslag.com/new/wp-content/uploads/2024/06/stat-background-graphic.webp');
+    background-size: cover; /* Adjust background size to cover the entire div */
+    background-position: center; /* Center the background image */
+    color: white; /* Text color for heading and paragraph */
+    text-align: center; /* Center align text */
+    padding: 20px; /* Add padding for better spacing */
+    align-content: center;
+    height: 230px;
+    width: 224px;
+}
+
+.imgach{
+    height: 195px;
+    width: 200px;
+}
+.secondach p{
+    font-size: 20px;
+}
+@media(max-width: 600px) {
+    .mainach {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .secondach {
+        margin-top: 7px;
+    }
+}
