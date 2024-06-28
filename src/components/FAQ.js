@@ -21,7 +21,7 @@ const FAQ = () => {
     return (
         <div className='section-background-color-dark'>
             <div className='container'>
-                <h1 className="heading-gradient">Who We Are</h1>
+                <h1 className="heading-gradient">FAQ</h1>
                 <div className="faq-list">
                     {faqs.map((faq, index) => (
                         <div key={index} className="faq-item">

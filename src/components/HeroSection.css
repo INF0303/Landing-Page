@@ -266,16 +266,16 @@
 }
 
 .secondach {
-    width: 25%;
-    background-image: url('https://blueslag.com/new/wp-content/uploads/2024/06/stat-background-graphic.webp');
-    background-size: cover; /* Adjust background size to cover the entire div */
-    background-position: center; /* Center the background image */
-    color: white; /* Text color for heading and paragraph */
-    text-align: center; /* Center align text */
-    padding: 20px; /* Add padding for better spacing */
+    height: 200px;    
+    width: 200px;
+    color: white;
+    border-radius: 100%;
     align-content: center;
-    height: 230px;
-    width: 224px;
+    margin: 0px 12px;    
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 4%), 0 6px 20px 0 rgb(0 0 0 / 11%);
+    background: -webkit-linear-gradient(225deg, #00c2c7, #0086ad, #005582) 0% 0% / 300% 300%;
+    background-size: 200% auto;
+    animation: gradient_move 3s ease infinite;
 }
 
 .imgach{

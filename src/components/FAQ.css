@@ -12,7 +12,8 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    background-color: #78B6DF; /* Background color for accordion heading */
+    background-color: #0091bb;
+    color: white;
     padding: 10px; /* Add some padding for better appearance */
     border-radius: 7px;
   
@@ -20,7 +21,7 @@
   
   .faq-question h3 {
     margin: 0;
-    font-size: 22px;
+    font-size: 20px;
   
   }
   

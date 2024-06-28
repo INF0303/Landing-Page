@@ -1,0 +1,124 @@
+.navbar {
+    background-color: #0086ad;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-logo {
+    flex:0 1;
+}
+
+.nav-logo img {
+    height: 40px;
+    width: auto;
+}
+
+.nav-menu {
+    flex: 3 1;
+    display: flex;
+    justify-content: flex-end   ; /* Align menu items to the left within the menu section */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 14px;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px; /* Update font size */
+}
+
+.call-btn-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.call-btn {
+    border: 1px solid #fff;
+    color: white;
+    height: 54px;
+    margin: 18px 0px 10px 0px;
+    font-weight: 600;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 4%), 0 6px 20px 0 rgb(0 0 0 / 11%);
+    font-size: 18px;
+    padding: 12px 20px 14px 20px;
+    border-radius: 0.7em;
+    background: -webkit-linear-gradient(225deg, #00c2c7, #0086ad, #005582) 0% 0% / 300% 300%;
+    background-size: 200% auto;
+    animation: gradient_move 3s ease infinite;
+    cursor: pointer;
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: 10px; /* Add space between the button and burger icon */
+}
+
+.line {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px;
+    transition: all 0.3s ease;
+}
+
+.burger.active .line1 {
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.burger.active .line2 {
+    opacity: 0;
+}
+
+.burger.active .line3 {
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start; /* Align items to the left */
+        width: 100%;
+        position: absolute;
+        top: 99px;
+        left: 0;
+        background-color: #0086ad; /* Updated background color */
+        color: #fff; /* Updated text color */
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 10px 0; /* Add padding for better spacing */
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-item {
+        margin: 10px 0; /* Add margin for better spacing between items */
+        width: 100%; /* Make items take full width */
+    }
+
+    .nav-item a {
+        width: 100%; /* Make links take full width */
+        padding: 10px 20px; /* Add padding for better touch targets */
+    }
+
+    .burger {
+        display: flex;
+    }
+}
