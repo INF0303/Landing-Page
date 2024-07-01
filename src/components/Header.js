@@ -8,19 +8,23 @@ const Header = () => {
         setIsOpen(!isOpen);
     };
 
+    const closeMenu = () => {
+        setIsOpen(false);
+    };
+
     return (
         <nav className="navbar">
             <div className='container container1'>
                 <div className="nav-logo">
-                    <img src='https://blueslag.com/wp-content/uploads/2021/05/1.png' alt="Logo"/>
+                    <img src='https://blueslag.com/wp-content/uploads/2021/05/1.png' alt="Logo" />
                 </div>
                 <ul className={isOpen ? "nav-menu active" : "nav-menu"}>
-                    <li className="nav-item"><a href="#home">Home</a></li>
-                    <li className="nav-item"><a href="#home">About</a></li>
-                    <li className="nav-item"><a href="#home">How we work</a></li>
-                    <li className="nav-item"><a href="#home">Why us</a></li>
-                    <li className="nav-item"><a href="#about">Results</a></li>
-                    <li className="nav-item"><a href="#contact">FAQ</a></li>
+                    <li className="nav-item"><a href="#home" onClick={closeMenu}>Home</a></li>
+                    <li className="nav-item"><a href="#about" onClick={closeMenu}>About</a></li>
+                    <li className="nav-item"><a href="#work" onClick={closeMenu}>How we work</a></li>
+                    <li className="nav-item"><a href="#whyus" onClick={closeMenu}>Why us</a></li>
+                    <li className="nav-item"><a href="#result" onClick={closeMenu}>Results</a></li>
+                    <li className="nav-item"><a href="#faq" onClick={closeMenu}>FAQ</a></li>
                 </ul>
                 <div className="call-btn-container">
                     <button className="call-btn">Schedule Call</button>

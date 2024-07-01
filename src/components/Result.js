@@ -5,7 +5,7 @@ const Result = () => {
  
     return (
         <>
-        <div className='section-background-color'>
+        <div className='section-background-color' id='result'>
             <div className='container'>
                 <h1 className="heading-gradient">Results</h1>
 

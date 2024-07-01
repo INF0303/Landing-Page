@@ -1,7 +1,11 @@
 .navbar {
     background-color: #0086ad;
     color: #fff;
-    padding: 10px 20px;
+    padding: 0px 0px 2px !important;
+    position: fixed !important; /* Fix the header at the top */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the header is above other content */
 }
 
 .container1 {
@@ -12,7 +16,7 @@
 }
 
 .nav-logo {
-    flex:0 1;
+    flex: 0 1;
 }
 
 .nav-logo img {
@@ -23,7 +27,7 @@
 .nav-menu {
     flex: 3 1;
     display: flex;
-    justify-content: flex-end   ; /* Align menu items to the left within the menu section */
+    justify-content: flex-end;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -37,6 +41,12 @@
     color: #fff;
     text-decoration: none;
     font-size: 20px; /* Update font size */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+    color: #c4f1ff; /* Set hover and active color */
 }
 
 .call-btn-container {
@@ -96,7 +106,7 @@
         align-items: flex-start; /* Align items to the left */
         width: 100%;
         position: absolute;
-        top: 99px;
+        top: 85px;
         left: 0;
         background-color: #0086ad; /* Updated background color */
         color: #fff; /* Updated text color */

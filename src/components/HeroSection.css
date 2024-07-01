@@ -1,28 +1,27 @@
 .section-background-color{
     background-color:#b6e2ff;
-    padding: 80px 0px;
+    padding: 50px 0px;
     text-align: center;    
 }
-
 .container{
     max-width: 944px !important;
 }
-
+.toppadding{
+    padding: 94px 0px 30px;
+}
 .heading-gradient{
     background: linear-gradient(to bottom, #00c2c7, #0086ad, #005582);
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-size: 50px;
+    font-size: 45px;
     padding: 8px;
 }
-
 .subHeading{
-    font-size: 21px;
+    font-size: 25px;
     font-weight: 400;
 }
 .vdo{
     width: 440px;
-    border: 0;
     height: 245px;
     border-radius: 16px;
 }
@@ -53,6 +52,26 @@
     50%{background-position: 100% 9%}
     100%{background-position: 0% 92%}
   }
+
+  @media(max-width: 600px){
+    .container{
+        max-width: 100% !important;
+    }
+    .heading-gradient{
+        font-size: 27px;
+    }
+    .subHeading{
+        font-size: 18px;
+    }
+    .vdo{
+    width: 335px;
+    height: 180px;
+    }
+    .section-background-color{
+        padding: 30px 0px;
+    }
+}
+
 /* ***********MAIN*********** */
 .main {
     display: flex;
@@ -86,10 +105,60 @@
         text-align: center;
         gap: 10px;
     }
+    .first {
+        width: 100%;
+    }
     .second {
         margin-top: 7px;
+        width: 100%;
     }
 }
+
+/* ***************Video*************** */
+.mainvd {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin: auto;    
+}
+@media(max-width: 600px) {
+    .mainvd {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+  /* ****************************MAIN VIDEO******************** */
+
+  .mainvdo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+.covervdo {
+    object-fit: cover;
+    border-radius: 16px;
+    height: 215px;
+    width: 215px;
+}
+
+@media(max-width: 600px) {
+    .mainvdo {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .covervdo {
+        height: 160px;
+        width: 160px;
+    }
+}
+
 
 /* ***********MAIN!111111*********** */
 
@@ -127,13 +196,9 @@
 
 @media(max-width: 600px) {
     .main1 {
-        display: block;
         justify-content: center;
         text-align: center;
        
-    }
-    .second1 {
-        margin-top: 7px;
     }
 }
 
@@ -174,13 +239,9 @@
 
 @media(max-width: 600px) {
     .main2 {
-        display: block;
         justify-content: center;
         text-align: center;
         gap: 10px;
-    }
-    .second2 {
-        margin-top: 7px;
     }
 }
 .partnerSection{
@@ -226,51 +287,26 @@
     margin: 10px 20px 20px;
   }
 
-  /* ****************************MAIN VIDEO******************** */
 
-  .mainvdo {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 10px;
-    margin: auto;
-    
-}
 
-.vdosize {
-    width: 25%;
-}
-.covervdo {
-    object-fit: cover;
-    border-radius: 16px;
-}
-
-@media(max-width: 600px) {
-    .mainvdo {
-        display: block;
-        justify-content: center;
-        text-align: center;
-        gap: 10px;
-    }
-}
-
-/* **************Achivement******************* */
-
+/* **************Achievement******************* */
 .mainach {
     display: flex;
     justify-content: center;
     text-align: center;
     gap: 10px;
     margin: 50px 0px 10px;
-    
 }
 
 .secondach {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 200px;    
     width: 200px;
     color: white;
     border-radius: 100%;
-    align-content: center;
     margin: 0px 12px;    
     box-shadow: 0 8px 16px 0 rgb(0 0 0 / 4%), 0 6px 20px 0 rgb(0 0 0 / 11%);
     background: -webkit-linear-gradient(225deg, #00c2c7, #0086ad, #005582) 0% 0% / 300% 300%;
@@ -278,21 +314,24 @@
     animation: gradient_move 3s ease infinite;
 }
 
-.imgach{
+.imgach {
     height: 195px;
     width: 200px;
 }
-.secondach p{
+
+.secondach p {
     font-size: 20px;
 }
+
 @media(max-width: 600px) {
     .mainach {
-        display: block;
-        justify-content: center;
-        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
     .secondach {
-        margin-top: 7px;
+        height: 155px;    
+        width: 155px;
+        margin: 7px auto; /* Optional: Center align items */
     }
 }

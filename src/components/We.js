@@ -5,9 +5,10 @@ const We = () => {
  
     return (
         <>
-        <div className='section-background-color-dark'>
-            <div className='container'>
-                <h1 className="heading-gradient">Who We are</h1>
+        <div className='section-background-color-dark'  id='about'>
+            <div className='container'> 
+            <p className='subHeading'>About us</p>
+                <h1 className="heading-gradient" >Who We are</h1>
 
                 <div class="mainwe1">
 

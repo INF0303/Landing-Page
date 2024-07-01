@@ -19,7 +19,7 @@ const FAQ = () => {
     };
 
     return (
-        <div className='section-background-color-dark'>
+        <div className='section-background-color-dark' id='faq'>
             <div className='container'>
                 <h1 className="heading-gradient">FAQ</h1>
                 <div className="faq-list">

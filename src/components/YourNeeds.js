@@ -6,8 +6,9 @@ const YourNeeds = () => {
 
   return (
     <>
-    <div className='section-background-color'>
+    <div className='section-background-color' id='whyus'>
                     <div className='container'>
+                    <p className='subHeading'>Why us</p>
                         <h1 className="heading-gradient">All Your needs at one place</h1>
                         
                         <div class="mainwe1">

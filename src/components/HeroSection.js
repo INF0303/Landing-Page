@@ -9,11 +9,14 @@ const HeroSection = () => {
  
     return (
        <>
-       <div className="section-background-color">
+       
+       <div className="section-background-color" >
             <div className="container">
-                <h1 className="heading-gradient">Learn Performance Marketing: <br />The New-Age Digital Marketing</h1>
+                <div className='toppadding' id='home'>
+                <h1 className="heading-gradient">We build full-funnel Performance Marketing <br /> journeys that capture your customer's heart.</h1>
 
-                <p className='subHeading'>Learn secret strategies & tactics that generated over $100M in revenue for <br /> various big & small brands</p>
+                <p className='subHeading'>“A dedicated team of specialists, delivering remarkable results worldwide!”
+                </p>
                 
                 <div className="main">
 
@@ -60,6 +63,7 @@ const HeroSection = () => {
                     </div>
         
                 </div>
+                </div>
 
                     <div className="bordertop">
                     <h2>People we've trained work at</h2>
@@ -80,35 +84,33 @@ const HeroSection = () => {
                         </div>
                     </div>
 
-                    <div className="mainvdo">
-                            <div className="vdosize">
-                                <video className="covervdo" width="200" height="200" controls >
-                                    <source src="https://videos.pexels.com/video-files/10464565/10464565-sd_506_960_25fps.mp4" type="video/mp4" />
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
 
-                            <div className="vdosize">
-                                <video className="covervdo" width="200" height="200" controls>
-                                    <source src="https://videos.pexels.com/video-files/6948550/6948550-uhd_1440_2560_24fps.mp4" type="video/mp4" />
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
+    <div class="mainvdo">
 
-                            <div className="vdosize">
-                                <video className="covervdo" width="200" height="200" controls>
-                                    <source src="https://videos.pexels.com/video-files/7005834/7005834-uhd_1440_2560_24fps.mp4" type="video/mp4" />
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
+            <video className="covervdo" controls>
+                <source src="https://videos.pexels.com/video-files/10464565/10464565-sd_506_960_25fps.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>   
 
-                            <div className="vdosize">
-                                <video className="covervdo" width="200" height="200" controls>
-                                    <source src="https://videos.pexels.com/video-files/7426663/7426663-hd_1080_1920_25fps.mp4" type="video/mp4" />
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                    </div>
+            <video className="covervdo" controls>
+                <source src="https://videos.pexels.com/video-files/6948550/6948550-uhd_1440_2560_24fps.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+
+            <video className="covervdo" controls>
+                <source src="https://videos.pexels.com/video-files/7005834/7005834-uhd_1440_2560_24fps.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+
+            <video className="covervdo" controls>
+                <source src="https://videos.pexels.com/video-files/7426663/7426663-hd_1080_1920_25fps.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+    
+</div>
+         
+
+                  
 
                     <div className="mainach">
 
@@ -136,6 +138,7 @@ const HeroSection = () => {
 
 
             </div>
+            
        </div>
        </>
     );

@@ -16,13 +16,13 @@ function App() {
       <header className="App-header">
         <Header />
         <HeroSection />
-        <We />
-        <Result />
+        <We />        
         <Work />
         <YourNeeds />
+        <Result />
         <FAQ />
         <CTA />
-        {/* <Copyright /> */}
+        <Copyright />
       </header>
     </div>
   );

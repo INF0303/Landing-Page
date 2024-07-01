@@ -6,7 +6,7 @@ const Work = () => {
 
     return (
         <>
-        <div className='section-background-color-dark'>
+        <div className='section-background-color-dark' id='work'>
             <div className='container'>
                 <h1 className="heading-gradient">How We Work</h1>
 
