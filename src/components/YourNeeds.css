@@ -19,6 +19,7 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 30px 15px 15px;
     margin: 20px 0px;
+    width: 100%;
     }
     
     .firstwe1 p {
@@ -34,11 +35,23 @@
       border: 1px solid rgba(255, 255, 255, 0.3);
       padding: 30px 15px 15px;
       margin: 20px 0px;
+      width: 100%;
     }
     
     .secwe1 p {
       font-size: 18px;
     }
+    .mid{
+      margin: 117px -100px;
+      z-index: 1;
+  }
+  .midimg{
+      height: 150px;
+      /* transition: transform .2s;  */
+  }
+  .midimg:hover{
+    transform: rotateY(180deg);
+}
     
     @media(max-width: 600px) {
       .mainwe1 {

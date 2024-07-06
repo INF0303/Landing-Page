@@ -16,7 +16,7 @@ function App() {
       <header className="App-header">
         <Header />
         <HeroSection />
-        <We />        
+        {/* <We />         */}
         <Work />
         <YourNeeds />
         <Result />

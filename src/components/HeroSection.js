@@ -8,8 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const HeroSection = () => {
  
     return (
-       <>
-       
+       <>      
        <div className="section-background-color" >
             <div className="container">
                 <div className='toppadding' id='home'>
@@ -17,44 +16,49 @@ const HeroSection = () => {
 
                 <p className='subHeading'>“A dedicated team of specialists, delivering remarkable results worldwide!”
                 </p>
-                
+
                 <div className="main">
 
                     <div className="first">
 
                         <div className="main1">                            
                             <div className="first1">
-                                <p> <FontAwesomeIcon icon={faClock} className='icon-color'/> <b>3 Hours Total</b></p>
+                                <p> <FontAwesomeIcon icon={faClock} className='icon-color'/> <b>Minium 3 Month Onboarding</b></p>
                             </div>
                             
                            <div class="second1">                
-                                <p><FontAwesomeIcon icon={faGlobe} className='icon-color'/><b> Online Stream</b></p>
+                                <p><FontAwesomeIcon icon={faCalendarAlt} className='icon-color'/><b>  15 days <br />notice period</b></p>
                             </div>
                         </div>
                         
                         <div className='calenderPara'>
-                            <p><FontAwesomeIcon icon={faCalendarAlt} className='icon-color'/><b> 30th June, Sunday </b><br /><span className='smallFont1' >11:00 AM- 2:00 PM IST<br />
-                            Q&A - 8 PM to 9 PM IST</span>
+                            <p><FontAwesomeIcon icon={faGlobe} className='icon-color'/><b> Boost sales with us</b><br /><span className='smallFont1' >Creative testing, audience segmentation, advanced bidding, and remarketing for maximum ROI.</span>
                         </p>
                         </div>
 
                         <div className="main2">
                             <div className="first2">
-                                <img className="partnerSection" src="https://blueslag.com/new/wp-content/uploads/2024/06/18-e1719214238476-removebg-preview.png" alt="" />
-                                <p>Certified Shopify<br /> Business Partner</p>
+                            <img className="partnerSection" src="https://blueslag.com/new/wp-content/uploads/2024/06/19-e1719214346252-removebg-preview.png" alt="" />
+                            <p>Meta Business <br />  Partner</p>   
                             </div>
 
                             <div className="second2">
-                                <img className="partnerSection" src="https://blueslag.com/new/wp-content/uploads/2024/06/19-e1719214346252-removebg-preview.png" alt="" />
-                                <p>Meta Business <br />  Partner</p>                               
+                            <img className="partnerSection" src="https://blueslag.com/new/wp-content/uploads/2024/06/18-e1719214238476-removebg-preview.png" alt="" />
+                            <p>Certified Shopify<br /> Business Partner</p>                                                         
                             </div>
                         </div>
                     </div>
 
                     <div className="second">
-                        <div className="embed-responsive embed-responsive-16by9">
-                            <iframe className="embed-responsive-item vdo" src="https://www.youtube.com/embed/w5UrGT2z0RU?rel=0" allowFullScreen title="YouTube Video"></iframe>
-                        </div>
+                    <div className="embed-responsive embed-responsive-16by9">
+            <iframe
+                className="embed-responsive-item vdo"
+                src="https://www.youtube.com/embed/XlW48uZyu5U?autoplay=1&mute=1"
+                allowFullScreen
+                title="YouTube Video"
+            ></iframe>
+        </div>
+
                         <p>Reserve a seat before June 22, 2024 to </p>
                         {/* <button type="button" class="btn btn-primary btnhero">Get Call Back</button> */}
                         <button type="button" class="btnhero">Get Started</button>
@@ -68,59 +72,31 @@ const HeroSection = () => {
                     <div className="bordertop">
                     <h2>People we've trained work at</h2>
                         <div>
-                        <img className="imgsize" src="https://blueslag.com/new/wp-content/uploads/2024/06/shopify.svg" alt="" />
-                        <img className="imgsize" src="https://blueslag.com/new/wp-content/uploads/2024/06/clutch.svg" alt="" />
-                        <img className="imgsize" src="https://blueslag.com/new/wp-content/uploads/2024/06/trustpilot.svg" alt="" />
-                        <img className="imgsize" src="https://blueslag.com/new/wp-content/uploads/2024/06/google.svg" alt="" />
-                        <img className="imgsize" src="https://blueslag.com/new/wp-content/uploads/2022/08/review.svg" alt="" /> 
-                        <img className="imgsize" src="https://blueslag.com/new/wp-content/uploads/2024/06/trustpilot.svg" alt="" />
+                        <img className="imgsize1" src="https://blueslag.com/wp-content/uploads/2024/07/black-e1720182412142.png" alt="" />
+                        <img className="imgsize7" src="https://blueslag.com/wp-content/uploads/2024/07/blbg-1-e1720182480205.png" alt="" />
+                        <img className="imgsize2" src="https://blueslag.com/wp-content/uploads/2024/07/blbg-11.png" alt="" />                        
+                        <img className="imgsize4" src="https://blueslag.com/wp-content/uploads/2024/07/blbg-4.png" alt="" />
+                        <img className="imgsize5" src="https://blueslag.com/wp-content/uploads/2024/07/blbg-8.png" alt="" />
+                        <img className="imgsize11" src="https://blueslag.com/wp-content/uploads/2024/07/blbg-6-e1720181471595.png" alt="" />                       
                         <br />
-                        <img className="imgsize1" src="https://blueslag.com/new/wp-content/uploads/2024/06/trustpilot.svg" alt="" />
-                        <img className="imgsize1" src="https://blueslag.com/new/wp-content/uploads/2024/06/google.svg" alt="" />
-                        <img className="imgsize1" src="https://blueslag.com/new/wp-content/uploads/2022/08/review.svg" alt="" /> 
-                        <img className="imgsize1" src="https://blueslag.com/new/wp-content/uploads/2024/06/trustpilot.svg" alt="" />     
-                        <img className="imgsize1" src="https://blueslag.com/new/wp-content/uploads/2024/06/shopify.svg" alt="" />
-                        <img className="imgsize1" src="https://blueslag.com/new/wp-content/uploads/2024/06/clutch.svg" alt="" />   
+                        <img className="imgsize8" src="https://blueslag.com/wp-content/uploads/2024/07/blbg-9-e1720181414994.png" alt="" />  
+                        <img className="imgsize22" src="https://blueslag.com/wp-content/uploads/2024/07/blbg-3.png" alt="" />        
+                        <img className="imgsize6" src="https://blueslag.com/wp-content/uploads/2024/07/blbg-2.png" alt="" />
+                        <img className="imgsize3" src="https://blueslag.com/wp-content/uploads/2024/07/blbg-12-e1720181348687.png" alt="" />
+                        <img className="imgsize9" src="https://blueslag.com/wp-content/uploads/2024/07/blbg-7.png" alt="" />                       
+                        <img className="imgsize33" src="https://blueslag.com/wp-content/uploads/2024/07/blbg-5.png" alt="" />
                         </div>
                     </div>
-
-
-    <div class="mainvdo">
-
-            <video className="covervdo" controls>
-                <source src="https://videos.pexels.com/video-files/10464565/10464565-sd_506_960_25fps.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>   
-
-            <video className="covervdo" controls>
-                <source src="https://videos.pexels.com/video-files/6948550/6948550-uhd_1440_2560_24fps.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-
-            <video className="covervdo" controls>
-                <source src="https://videos.pexels.com/video-files/7005834/7005834-uhd_1440_2560_24fps.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-
-            <video className="covervdo" controls>
-                <source src="https://videos.pexels.com/video-files/7426663/7426663-hd_1080_1920_25fps.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-    
-</div>
-         
-
-                  
 
                     <div className="mainach">
 
                         <div className="secondach">
-                            <h3>$2M+</h3>
+                            <h3>5Cr+</h3>
                             <p>ads spend</p>
                         </div>
 
                         <div className="secondach">
-                            <h3>$10M+</h3>
+                            <h3>25Cr+</h3>
                             <p>revenue</p>
                         </div>
 
@@ -130,7 +106,7 @@ const HeroSection = () => {
                         </div>
 
                         <div className="secondach">
-                            <h3>200+</h3>
+                            <h3>50+</h3>
                             <p>clients</p>
                         </div>
 
